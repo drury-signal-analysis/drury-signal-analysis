@@ -9,7 +9,8 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
   * Convolutional neural networks
   * Transformers
   * Generative adversarial networks
-  * Efficient memory transformer
+  * Efficient Memory Transformer
+  * Convolutional Layering Transformer
 
 * Tools
   * Torch audio
