@@ -14,13 +14,14 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 * Tools
   * Torch audio
 
-* Music
-  * Voices
-    * Train on songs from artist
-    * Classify artists
-  * Signal separation
-* EEG (brain) and ECG (heart)
-  * Look for anomolies
-* Radio communication
-* Sensor data
-* Generative machine learning (text, audio, etc.)
+* Ideas
+ * Music
+   * Voices
+     * Train on songs from artist
+     * Classify artists
+   * Signal separation
+ * EEG (brain) and ECG (heart)
+   * Look for anomolies
+ * Radio communication
+ * Sensor data
+ * Generative machine learning (text, audio, etc.)
