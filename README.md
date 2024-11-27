@@ -14,7 +14,7 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 * Tools
   * Torch audio
 
-* Nusic
+* Music
   * Voices
     * Train on songs from artist
     * Classify artists
