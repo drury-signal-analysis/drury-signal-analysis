@@ -33,4 +33,4 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
  * HuggingFace
 
 ## Other repos
- * [Brayden's Neural Audio Classification Repository]([url](https://github.com/braydenoneal/neural-audio-classification))
+ * [Brayden's Neural Audio Classification Repository](https://github.com/braydenoneal/neural-audio-classification)
