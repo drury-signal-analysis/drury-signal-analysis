@@ -18,10 +18,10 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 
 ## Ideas 
    * Music
-    * Voices
+   * Voices
       * Train on songs from artist
       * Classify artists
-    * Signal separation
+   * Signal separation
   * EEG (brain) and ECG (heart)
     * Look for anomolies
   * Radio communication
