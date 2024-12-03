@@ -2,7 +2,7 @@
 
 Spring 2025 classification modeling with signal analysis research at Drury University.
 
-* Concepts
+## Concepts
   * [Fast Fourier Transforms](https://en.wikipedia.org/wiki/Fourier_transform)
   * [Short Time Fourier Transforms](https://en.wikipedia.org/wiki/Short-time_Fourier_transform)
   * [Long Short Term Neural Network](https://arxiv.org/pdf/1706.03762)
@@ -13,11 +13,11 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
   * [Efficient Memory Transformer](https://arxiv.org/pdf/2010.10759)
   * [Convolutional Layering Transformer](https://arxiv.org/pdf/2209.14868)
 
-* Tools
-  * Torch audio
+ ## Tools
+   * Torch audio
 
-* Ideas 
-  * Music
+## Ideas 
+   * Music
     * Voices
       * Train on songs from artist
       * Classify artists
@@ -27,3 +27,7 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
   * Radio communication
   * Sensor data
   * Generative machine learning (text, audio, etc.)
+    
+## DataSets
+ * Audio MNIST
+ * HuggingFace
