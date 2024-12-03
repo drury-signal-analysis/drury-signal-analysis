@@ -3,7 +3,7 @@
 Spring 2025 classification modeling with signal analysis research at Drury University.
 
 * Concepts
-  * Fast fourier transforms
+  * (Fast fourier transforms){https://en.wikipedia.org/wiki/Fourier_transform}
   * Short time fourier transforms
   * Recurent neural networks
   * Convolutional neural networks
