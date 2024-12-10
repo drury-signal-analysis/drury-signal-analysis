@@ -16,6 +16,8 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 
  ## Tools
    * Torch audio
+   * Arduino
+   * Muscle Sensor Device (EMG)
 
 ## Ideas 
    * Music
