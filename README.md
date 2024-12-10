@@ -39,8 +39,8 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 
 ## EMG Sensor
  * Train neural net to detect and interpret specific muscle movements
-   ###Sources:
-    *[EMG Article on classification system for identifying hand and finger movements](https://www.sciencedirect.com/science/article/pii/S2772442522000661#:~:text=Abstract,of%20study%20in%20the%20future.)
+### Sources
+ * [EMG Article on classification system for identifying hand and finger movements](https://www.sciencedirect.com/science/article/pii/S2772442522000661#:~:text=Abstract,of%20study%20in%20the%20future.)
 
 ## DataSets
  * Audio MNIST
