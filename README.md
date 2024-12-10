@@ -45,6 +45,7 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 ## DataSets
  * Audio MNIST
  * HuggingFace
+ * Own Sample Data (From EMG Sensor)
 
 ## Other repos
  * [Brayden's Neural Audio Classification Repository](https://github.com/braydenoneal/neural-audio-classification)
