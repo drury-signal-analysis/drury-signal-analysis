@@ -44,6 +44,7 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 ### Sources
  * [EMG Article on classification system for identifying hand and finger movements](https://www.sciencedirect.com/science/article/pii/S2772442522000661#:~:text=Abstract,of%20study%20in%20the%20future.)
  * [EMG Arxiv Paper on Machine Learning-based sEMG Signal Classification for Hand Gesture Recognition](https://arxiv.org/html/2411.15655v1#S3)
+   * [FORS-EMG Dataset](https://www.kaggle.com/datasets/ummerummanchaity/fors-emg-a-novel-semg-dataset/data)
 
 ## DataSets
  * Audio MNIST
