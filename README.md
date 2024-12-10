@@ -27,7 +27,12 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
   * Radio communication
   * Sensor data
   * Generative machine learning (text, audio, etc.)
-    
+
+## Genre Classification
+   * Dataset
+     * Scrape Spotify song audio and genre from metatdata
+   * Use neural network to identify genre from audio data
+
 ## DataSets
  * Audio MNIST
  * HuggingFace
