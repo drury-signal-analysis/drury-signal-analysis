@@ -36,6 +36,9 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 ## Signal Separation
  * Isolate instruments
 
+## EMG Sensor
+ * Train neural net to detect and interpret specific muscle movements
+
 ## DataSets
  * Audio MNIST
  * HuggingFace
