@@ -13,6 +13,7 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
   * [Efficient Memory Transformer](https://arxiv.org/pdf/2010.10759)
   * [Convolutional Layering Transformer](https://arxiv.org/pdf/2209.14868)
 
+
  ## Tools
    * Torch audio
 
@@ -38,6 +39,8 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 
 ## EMG Sensor
  * Train neural net to detect and interpret specific muscle movements
+   ###Sources:
+    *[EMG Article on classification system for identifying hand and finger movements](https://www.sciencedirect.com/science/article/pii/S2772442522000661#:~:text=Abstract,of%20study%20in%20the%20future.)
 
 ## DataSets
  * Audio MNIST
