@@ -7,9 +7,6 @@ orientations = [
     'supination',
 ]
 
-import numpy as np 
-=======
->>>>>>> bfed3a93a5b390cc35311faf1fe6088957e1d798
 
 gestures = [
     'Hand_Close',
@@ -28,6 +25,8 @@ gestures = [
 data = []
 gesture_outputs = []
 
+
+#Reads fpr each subject, each forearm orientation, in each gesture from each individual file
 for subject in range(19):
     for orientation in orientations:
         for gesture in gestures:
@@ -36,10 +35,13 @@ for subject in range(19):
                 data.append(loadmat(path)['value'])
                 gesture_outputs.append([gesture])
 
-with open('fors_emg.csv', 'w', newline='') as file:
+
+#Creataes really big csv file 2.5GB
+""" with open('fors_emg.csv', 'w', newline='') as file:
     writer = csv.writer(file)
 
     writer.writerow([i + 1 for i in range(8)] + ['gesture'])
 
     for row, gesture in zip(data, gesture_outputs):
         writer.writerow(row.tolist() + gesture)
+ """
