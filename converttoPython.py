@@ -1,4 +1,11 @@
 from scipy.io import loadmat
+import csv
+
+orientations = [
+    'pronation',
+    'rest',
+    'supination',
+]
 
 gestures = [
     'Hand_Close',
@@ -14,17 +21,21 @@ gestures = [
     'Wrist_Flexion',
 ]
 
-orientations = [
-    'pronation',
-    'rest',
-    'supination',
-]
+data = []
+gesture_outputs = []
 
-for i in range(19):
+for subject in range(19):
     for orientation in orientations:
         for gesture in gestures:
-            for j in range(5):
-                path = f'FORS-EMG/Subject{i + 1}/{orientation}/{gesture}-{j + 1}.mat'
-                data = loadmat(path)
+            for iteration in range(5):
+                path = f'FORS-EMG/Subject{subject + 1}/{orientation}/{gesture}-{iteration + 1}.mat'
+                data.append(loadmat(path)['value'])
+                gesture_outputs.append([gesture])
 
-                print(data['__header__'], data['__version__'], data['__globals__'], data['value'])
+with open('fors_emg.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+
+    writer.writerow([i + 1 for i in range(8)] + ['gesture'])
+
+    for row, gesture in zip(data, gesture_outputs):
+        writer.writerow(row.tolist() + gesture)
