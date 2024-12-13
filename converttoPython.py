@@ -1,5 +1,5 @@
 from scipy.io import loadmat
-import h5py
+
 import numpy as np 
 
 Hand_Close = 'Hand_Close-1.mat'
