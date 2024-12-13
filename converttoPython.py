@@ -1,10 +1,15 @@
+import numpy as np
 from scipy.io import loadmat
-import csv
+
+subject_count = 19
+iterations = 5
+sensor_count = 8
+sensor_data_length = 8000
 
 orientations = [
     'pronation',
     'rest',
-    'supination',
+    'supination'
 ]
 
 gestures = [
@@ -18,29 +23,28 @@ gestures = [
     'Thumb_UP',
     'Ulner_Deviation',
     'Wrist_Extension',
-    'Wrist_Flexion',
+    'Wrist_Flexion'
 ]
 
-data = []
-gesture_outputs = []
+row_count = subject_count * len(orientations) * len(gestures) * iterations
 
+inputs = np.zeros((row_count, sensor_count, sensor_data_length), dtype=np.float64)
+outputs = np.zeros(row_count, dtype=np.uint8)
 
 #Reads fpr each subject, each forearm orientation, in each gesture from each individual file
-for subject in range(19):
-    for orientation in orientations:
-        for gesture in gestures:
-            for iteration in range(5):
+for subject in range(subject_count):
+    for orientation_index, orientation in enumerate(orientations):
+        for gesture_index, gesture in enumerate(gestures):
+            for iteration in range(iterations):
                 path = f'FORS-EMG/Subject{subject + 1}/{orientation}/{gesture}-{iteration + 1}.mat'
-                data.append(loadmat(path)['value'])
-                gesture_outputs.append([gesture])
 
+                index = np.ravel_multi_index(
+                    (subject, orientation_index, gesture_index, iteration),
+                    (subject_count, len(orientations), len(gestures), iterations)
+                )
 
-#Creataes really big csv file 2.5GB
-""" with open('fors_emg.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
+                inputs[index] = loadmat(path)['value']
+                outputs[index] = gesture_index
 
-    writer.writerow([i + 1 for i in range(8)] + ['gesture'])
-
-    for row, gesture in zip(data, gesture_outputs):
-        writer.writerow(row.tolist() + gesture)
- """
+print(inputs)
+print(outputs)
