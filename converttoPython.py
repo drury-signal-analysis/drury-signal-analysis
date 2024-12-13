@@ -7,10 +7,6 @@ orientations = [
     'supination',
 ]
 
-import numpy as np 
-=======
->>>>>>> bfed3a93a5b390cc35311faf1fe6088957e1d798
-
 gestures = [
     'Hand_Close',
     'Index',
