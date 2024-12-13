@@ -7,7 +7,6 @@ orientations = [
     'supination',
 ]
 
-
 gestures = [
     'Hand_Close',
     'Index',
