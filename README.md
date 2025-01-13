@@ -2,6 +2,9 @@
 
 Spring 2025 classification modeling with signal analysis research at Drury University.
 
+## Resources
+  * [Kaggle FORS-EMG](https://www.kaggle.com/datasets/ummerummanchaity/fors-emg-a-novel-semg-dataset?resource=download)
+
 ## Concepts
   * [Fast Fourier Transforms](https://en.wikipedia.org/wiki/Fourier_transform)
   * [Short Time Fourier Transforms](https://en.wikipedia.org/wiki/Short-time_Fourier_transform)
