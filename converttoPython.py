@@ -7,9 +7,9 @@ sensor_count = 8
 sensor_data_length = 8000
 
 orientations = [
-    'pronation',
-    'rest',
-    'supination'
+    'Pronation',
+    'Rest',
+    'Supination'
 ]
 
 gestures = [
@@ -36,7 +36,7 @@ for subject in range(subject_count):
     for orientation_index, orientation in enumerate(orientations):
         for gesture_index, gesture in enumerate(gestures):
             for iteration in range(iterations):
-                path = f'FORS-EMG/Subject{subject + 1}/{orientation}/{gesture}-{iteration + 1}.mat'
+                path = f'./FORS-EMG/Subject{subject + 1}/{orientation}/{gesture}-{iteration + 1}.mat'
 
                 index = np.ravel_multi_index(
                     (subject, orientation_index, gesture_index, iteration),
