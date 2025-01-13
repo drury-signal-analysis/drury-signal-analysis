@@ -31,7 +31,6 @@ row_count = subject_count * len(orientations) * len(gestures) * iterations
 inputs = np.zeros((row_count, sensor_count, sensor_data_length), dtype=np.float64)
 outputs = np.zeros(row_count, dtype=np.uint8)
 
-#Reads fpr each subject, each forearm orientation, in each gesture from each individual file
 for subject in range(subject_count):
     for orientation_index, orientation in enumerate(orientations):
         for gesture_index, gesture in enumerate(gestures):
