@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.io import loadmat
+import torch
 
 subject_count = 19
 iterations = 5
@@ -28,8 +29,8 @@ gestures = [
 
 row_count = subject_count * len(orientations) * len(gestures) * iterations
 
-inputs = np.zeros((row_count, sensor_count, sensor_data_length), dtype=np.float64)
-outputs = np.zeros(row_count, dtype=np.uint8)
+inputs = torch.zeros((row_count, sensor_count, sensor_data_length), dtype=torch.float32)
+outputs = torch.zeros(row_count, dtype=torch.long)
 
 for subject in range(subject_count):
     for orientation_index, orientation in enumerate(orientations):
@@ -42,8 +43,8 @@ for subject in range(subject_count):
                     (subject_count, len(orientations), len(gestures), iterations)
                 )
 
-                inputs[index] = loadmat(path)['value']
+                inputs[index] = torch.tensor(loadmat(path)['value'])
                 outputs[index] = gesture_index
 
-print(inputs)
-print(outputs)
+torch.save(inputs, 'inputs.pt')
+torch.save(outputs, 'outputs.pt')
