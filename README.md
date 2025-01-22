@@ -51,9 +51,10 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
  * [EMG Arxiv Paper on Machine Learning-based sEMG Signal Classification for Hand Gesture Recognition](https://arxiv.org/html/2411.15655v1#S3)
    * [FORS-EMG Dataset](https://www.kaggle.com/datasets/ummerummanchaity/fors-emg-a-novel-semg-dataset/data)
  * [Gesture Hand Classification from Google AI](https://ai.google.dev/edge/mediapipe/solutions/vision/gesture_recognizer)
+   * [HaGRID Dataset](https://www.kaggle.com/datasets/kapitanov/hagrid)
  * [Paper on MediaPipe for perception pipelining](https://arxiv.org/pdf/1906.08172)
 
-## DataSets
+## Datasets
  * Audio MNIST
  * HuggingFace
  * Own Sample Data (From EMG Sensor)
