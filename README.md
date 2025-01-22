@@ -44,10 +44,14 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
 
 ## EMG Sensor
  * Train neural net to detect and interpret specific muscle movements
+## Images
+ * Using key points in geometry of hands 
 ### Sources
  * [EMG Article on classification system for identifying hand and finger movements](https://www.sciencedirect.com/science/article/pii/S2772442522000661#:~:text=Abstract,of%20study%20in%20the%20future.)
  * [EMG Arxiv Paper on Machine Learning-based sEMG Signal Classification for Hand Gesture Recognition](https://arxiv.org/html/2411.15655v1#S3)
    * [FORS-EMG Dataset](https://www.kaggle.com/datasets/ummerummanchaity/fors-emg-a-novel-semg-dataset/data)
+ * [Gesture Hand Classification from Google AI](https://ai.google.dev/edge/mediapipe/solutions/vision/gesture_recognizer)
+ * [Paper on MediaPipe for perception pipelining](https://arxiv.org/pdf/1906.08172)
 
 ## DataSets
  * Audio MNIST
