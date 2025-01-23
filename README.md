@@ -54,11 +54,15 @@ Spring 2025 classification modeling with signal analysis research at Drury Unive
    * [HaGRID Dataset](https://www.kaggle.com/datasets/kapitanov/hagrid)
    * [MediaPipe Studio](https://mediapipe-studio.webapps.google.com/studio/demo/gesture_recognizer)
  * [Paper on MediaPipe for perception pipelining](https://arxiv.org/pdf/1906.08172)
+ * [Article on using MediaPipe to collect Holistic Key points in hand for sign language. (Uses LSTM), why? ](https://stackoverflow.com/questions/71250674/how-to-associate-mediapipe-holistic-key-points-to-a-sign-language)
+ * [Uses own data set to leverage German Sign Language Detection](https://medium.com/@ohr.morris/leveraging-google-mediapipe-for-easy-hand-gesture-classification-8ff2365c202c)
 
 ## Datasets
  * Audio MNIST
  * HuggingFace
  * Own Sample Data (From EMG Sensor)
+ * Kaggle data
+ * Image processing w/MediaPipe
 
 ## Other repos
  * [Brayden's Neural Audio Classification Repository](https://github.com/braydenoneal/neural-audio-classification)
